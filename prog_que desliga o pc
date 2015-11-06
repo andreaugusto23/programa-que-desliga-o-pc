@@ -1,0 +1,21 @@
+/* Programa que desliga o pc */
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+
+int main(){
+	int i=0;
+	
+	puts("Digite 1 para desligar: ");
+	scanf("%d",&i);
+	if(i==1) system ("shutdown -p");
+	getch();
+	return 0;
+	
+	
+}
+
+
+OBS: se for colocado "-s -t 600" irá desligar em 10 minutos,pois 600 segundos equivale a 10 minutos.
